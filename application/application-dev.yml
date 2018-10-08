@@ -92,10 +92,10 @@ paascloud:
     rocketMq:
       namesrvAddr: 127.0.0.1:9876
     sms:
-      signName: 网
-      regionId: cn-beijing
+      signName: 
+      regionId: 
       endpoint:
-      endpointName: cn-beijing
+      endpointName: 
       product: 'your sms product'
       domain: dysmsapi.aliyuncs.com
   qiniu:
@@ -107,7 +107,7 @@ paascloud:
       publicHost: 'your qiniu oss public host'
   alipay:
     callback:
-      url: http://dev-api.test.net/omc/pay/alipayCallback
+      url: http://dev-api.paascloud.net/omc/pay/alipayCallback
     qrCode:
       pcPath: E:/File/alipay/QRCode
       qiniuPath: alipay/QRCode/
